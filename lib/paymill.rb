@@ -6,7 +6,7 @@ require "logger"
 
 module Paymill
   API_BASE      = "api.paymill.com"
-  API_VERSION   = "v2"
+  API_VERSION   = "v2.1"
   ROOT_PATH     = File.dirname(__FILE__)
 
   @@api_key     = nil
